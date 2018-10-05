@@ -1,7 +1,7 @@
 Jisho-alfred-workflow
 ====================
 
-Yet another alfred workflow for [](http://jisho.org).
+Yet another alfred workflow for [jisho.org](http://jisho.org).
 
 Feature (a.k.a shortcomings)
 --------------------
@@ -24,4 +24,4 @@ pip install --target=. requests
 Credits
 --------------------
 
-The icon is from [](http://jisho.org) itself.
+The icon is from [jisho.org](http://jisho.org) itself.
