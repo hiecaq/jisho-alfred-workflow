@@ -7,30 +7,6 @@ import unicodedata
 
 import requests
 
-OUTPUT = """{{
-    "items": [
-        {{
-            "uid": "{0}",
-            "title": "{1}",
-            "subtitle": "Title",
-            "arg": "{2}"
-        }},
-        {{
-            "uid": "lower",
-            "title": "another test",
-            "subtitle": "Lower",
-            "arg": "another test"
-        }},
-        {{
-            "uid": "upper",
-            "title": "ANOTHER TEST",
-            "subtitle": "Upper",
-            "arg": "ANOTHER TEST"
-        }}
-    ]
-}}
-""".format(sys.version_info, sys.version_info, sys.version_info)
-
 # necessary to make sure the input is not in KFKD form
 input_string = unicodedata.normalize("NFKC", " ".join(sys.argv[1:]))
 r = requests.get(
