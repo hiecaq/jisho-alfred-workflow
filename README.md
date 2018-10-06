@@ -10,8 +10,8 @@ Feature (a.k.a shortcomings)
 - Work for Mac OS 10.12.6.
 - As a result, the path to python 3 binary is hard-coded to the brew-installed python3.
 - Need user to install the runtime before use it if not using the pre-compiled version.
-- Display the defnition of the word in *VERY HUGE FONT* when click `enter`.
-- Go to the corresponding website when click `cmd + enter`.
+- Display the defnition of the word in *VERY HUGE FONT* via `enter`.
+- Go to the corresponding website via `ctrl + enter`.
 
 Installation
 --------------------
